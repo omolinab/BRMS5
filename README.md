@@ -1,4 +1,5 @@
-BRMS53
-======
+BRMS5.X.XX
+==========
 
-Examples and tests for version BRMS 5.3.X
+Examples and tests for version BRMS 5.X.XX
+
