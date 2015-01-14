@@ -16,5 +16,12 @@ rule "GoodBye"
     when
         Message( status == Message.GOODBYE, myMessage : message )
     then
-        System.out.println( myMessage );
+        System.out.println( "1: " + myMessage );
+end
+
+rule "GoodBye2"
+    when
+        Message( status == Message.GOODBYE, myMessage : message )
+    then
+        System.out.println( "2: " + myMessage );
 end
